@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>{{ blogpost.title }}</h1>
+<p>{{ blogpost.text }} by <i>{{ blogpost.author.get_full_name }}</i></p>
+<p>{{ time }}</p>
+{% endblock %}
