@@ -5,8 +5,8 @@ from django.views.generic.detail import DetailView
 from django.views.generic.edit import UpdateView
 from django.views.generic.list import ListView
 
-from main.forms import BlogPostForm
-from main.models import BlogPost
+from posts.forms import BlogPostForm
+from posts.models import BlogPost
 
 
 def template(request):

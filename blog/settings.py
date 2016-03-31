@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'crispy_forms',
 
     'users',
-    'main',
+    'posts',
 ]
 
 MIDDLEWARE_CLASSES = [

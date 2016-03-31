@@ -1,7 +1,7 @@
 # coding=utf-8
 from django.contrib import admin
 
-from main.models import BlogPost
+from posts.models import BlogPost
 
 
 @admin.register(BlogPost)
