@@ -1,6 +1,9 @@
 from django.conf.urls import url
 import views
 
+
+# TEST COMMENT
+
 urlpatterns = [
     url(r"^$", view=views.template),
     url(r"^post/create/$", view=views.BlogPostCreate.as_view(), name="post-create"),
