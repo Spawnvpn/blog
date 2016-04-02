@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>{{ slug }}</h2>
+    <ul>
+        {% for blogpost in object_list %}
+            <li>{{ blogpost.text }} | <i>Created by </i> <b> {{ blogpost.author }} </b></li>
+        {% endfor %}
+    </ul>
+{% endblock %}
