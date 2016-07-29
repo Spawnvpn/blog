@@ -71,7 +71,7 @@ class RegisterUserForm(forms.ModelForm):
         date = self.cleaned_data.get("birth_date")
         today = datetime.date.today()
         if date.year >= today.year - 12:
-            raise forms.ValidationError("You must grow up! SUKA")
+            raise forms.ValidationError("You must grow up!")
         return date
 
     def clean_password2(self):
